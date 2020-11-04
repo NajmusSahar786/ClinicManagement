@@ -256,9 +256,9 @@
     <Compile Include="Core\ViewModel\AppointmentFormViewModel.cs" />
     <Compile Include="Core\ViewModel\DoctorDetailViewModel.cs" />
     <Compile Include="Core\ViewModel\ValidDate.cs" />
-    <Compile Include="Migrations\202011041033259_Configuration.cs.cs" />
-    <Compile Include="Migrations\202011041033259_Configuration.cs.Designer.cs">
-      <DependentUpon>202011041033259_Configuration.cs.cs</DependentUpon>
+    <Compile Include="Migrations\202011041132268_new.cs" />
+    <Compile Include="Migrations\202011041132268_new.Designer.cs">
+      <DependentUpon>202011041132268_new.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\EntityConfigurations\AppointmentConfiguration.cs" />
@@ -1127,7 +1127,9 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202011041033259_Configuration.cs.resx" />
+    <EmbeddedResource Include="Migrations\202011041132268_new.resx">
+      <DependentUpon>202011041132268_new.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
