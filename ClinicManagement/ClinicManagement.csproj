@@ -256,6 +256,11 @@
     <Compile Include="Core\ViewModel\AppointmentFormViewModel.cs" />
     <Compile Include="Core\ViewModel\DoctorDetailViewModel.cs" />
     <Compile Include="Core\ViewModel\ValidDate.cs" />
+    <Compile Include="Migrations\202011041033259_Configuration.cs.cs" />
+    <Compile Include="Migrations\202011041033259_Configuration.cs.Designer.cs">
+      <DependentUpon>202011041033259_Configuration.cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\EntityConfigurations\AppointmentConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\CityConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\DoctorConfiguration.cs" />
@@ -1120,6 +1125,9 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202011041033259_Configuration.cs.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
